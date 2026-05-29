@@ -10,18 +10,18 @@ services:
       - key: DB_HOST
         value: gz-cdb-b66nf4kn.sql.tencentcdb.com
       - key: DB_PORT
-        value: 21463
+        value: "21463"
       - key: DB_USER
         value: root
-      - key: DB_PASSWORD
-        sync: false  # 需手动在 Render Dashboard 填写
       - key: DB_NAME
         value: ai_platform
       - key: DB_TYPE
         value: mysql
-      - key: JWT_SECRET
-        sync: false
       - key: MOCK_MODE
         value: "false"
       - key: PORT
-        value: 10000  # Render 提供的 PORT
+        value: "10000"
+      - key: JWT_SECRET
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
