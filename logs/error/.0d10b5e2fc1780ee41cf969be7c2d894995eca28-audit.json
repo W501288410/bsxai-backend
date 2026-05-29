@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\admin\\.qclaw\\workspace-agent-b0024f66\\project_skeleton\\backend\\logs\\error\\.0d10b5e2fc1780ee41cf969be7c2d894995eca28-audit.json",
+    "files": [
+        {
+            "date": 1779974267151,
+            "name": "C:\\Users\\admin\\.qclaw\\workspace-agent-b0024f66\\project_skeleton\\backend\\logs\\error\\error-2026-05-28.log",
+            "hash": "d35cd7da96565273ae63bfc7bf7ef5d8a4754a8896dde1e3c03446ed74075f3c"
+        },
+        {
+            "date": 1779987787567,
+            "name": "C:\\Users\\admin\\.qclaw\\workspace-agent-b0024f66\\project_skeleton\\backend\\logs\\error\\error-2026-05-29.log",
+            "hash": "69875862bfe99143c827d9342f8fc4803c3d68cc62d47ef1d11db47ce7cb3a4b"
+        }
+    ],
+    "hashType": "sha256"
+}
